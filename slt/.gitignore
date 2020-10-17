@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/slt
+slt.so
+slt.dylib
+slt.dll
+slt.a
+slt.lib
+slt-test-*
+*.exe
+*.o
+*.obj
+*.lst

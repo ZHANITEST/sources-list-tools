@@ -1,0 +1,5 @@
+name "slt"
+description "sources.list tool"
+authors "ZHANITEST"
+copyright "Copyright © 2020, ZHANITEST"
+license "GPL-v3.0"
