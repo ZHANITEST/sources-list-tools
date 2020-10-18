@@ -18,10 +18,14 @@ class RepoInfo {
         this.partnerName    = this.name ~ " partner";
     }
 
-    @property string    main()  { return this.mainName; }
-    @property void      main(string s) { this.mainName = s; }
-    @property string    updates()  { return this.updatesName; }
-    @property void      updates(string s) { this.updatesName = s; }
-    @property string    security()  { return this.securityName; }
-    @property void      security(string s) { this.securityName = s; }
+    @property string    main()              { return this.mainName; }
+    @property void      main(string s)      { this.mainName = s; }
+    @property string    updates()           { return this.updatesName; }
+    @property void      updates(string s)   { this.updatesName = s; }
+    @property string    security()          { return this.securityName; }
+    @property void      security(string s)  { this.securityName = s; }
+    @property string    backports()         { return this.backportsName; }
+    @property void      backports(string s) { this.backportsName = s; }
+    @property string    partner()           { return this.partnerName; }
+    @property void      partner(string s)   { this.partnerName = s; }
 }

@@ -14,4 +14,7 @@ class Focal : RepoInfo {
 private unittest {
     Focal focal = new Focal();
     assert(focal.main == "focal main restricted universe multiverse");
+    assert(focal.updates == "focal-updates main restricted universe multiverse");
+    assert(focal.backports == "focal-backports main restricted universe multiverse");
+    assert(focal.partner== "focal partner");
 }
