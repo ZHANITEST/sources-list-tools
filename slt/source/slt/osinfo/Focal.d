@@ -6,7 +6,7 @@ class Focal : RepoInfo {
     this() {
         this.name       = "focal";
         this.fullName   = "Focal Fossa";
-        this.versionNumber = "20.01"; 
+        this.versionNumber = "20.04"; 
         super();
     }
 }
